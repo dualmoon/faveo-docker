@@ -8,6 +8,7 @@ libjpeg62-turbo-dev \
 libmcrypt-dev \
 libpng12-dev \
 git \
+unzip \
 && curl -sS https://getcomposer.org/installer | php \
 && mv composer.phar /usr/local/bin/composer \
 && docker-php-ext-install mbstring mcrypt \
